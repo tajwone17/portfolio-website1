@@ -4,11 +4,11 @@ const FloatingDiv = (props) => {
     return (
        <div className="floating">
         <img src={props.image} alt="" />
-        <p>
+        <span>
             {props.txt1}
             <br />
             {props.txt2}
-        </p>
+        </span>
        </div>
     );
 };
