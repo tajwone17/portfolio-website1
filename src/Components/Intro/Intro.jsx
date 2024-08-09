@@ -29,28 +29,28 @@ const Intro = () => {
                 <button className='button i-button'>Hire Me</button>
                 <div className="i-icons">
                     <a href='https://github.com/tajwone17' target='blank'>
-                    <img src={Github} alt="" />
+                        <img src={Github} alt="" />
                     </a>
                     <a href='https://www.instagram.com/tajwone_chowdhury17?igsh=MWlrZWdoY3NxcnR1Mg%3D%3D&utm_source=qr' target='blank'>
-                    <img src={Instagram} alt="" />
+                        <img src={Instagram} alt="" />
                     </a>
-                   <a href='https://bd.linkedin.com/in/jakaria-chowdhury-tajwone-9a1b08293' target='blank'>
-                    <img src={Linkedin} alt="" />
+                    <a href='https://bd.linkedin.com/in/jakaria-chowdhury-tajwone-9a1b08293' target='blank'>
+                        <img src={Linkedin} alt="" />
                     </a>
-                 
-                    
+
+
                 </div>
             </div>
             <div className="i-right">
-                <img src={Vector1} alt="" />
-                <img src={Vector2} alt="" />
-                <img src={boy} alt="" />
-                <div>
-                   <FloatingDiv image={crown} txt1='Web' txt2='Developer'></FloatingDiv>
+
+                <div className='hero'>
+                    <img src={Vector1} alt="" />
+                    <img src={Vector2} alt="" />
+                    <img src={boy} alt="" />
                 </div>
-               
+                <FloatingDiv image={crown} txt1='Web' txt2='Developer'></FloatingDiv>
             </div>
-            
+
         </div>
     );
 };

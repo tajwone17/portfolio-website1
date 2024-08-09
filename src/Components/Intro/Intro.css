@@ -52,22 +52,25 @@
 .i-right{
     flex: 1;
     position: relative;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
 }
-.i-right *{
+.hero *{
     position: absolute;
     z-index: 1;
 }
-.i-right :nth-child(1){
+.hero :nth-child(1){
     transform: scale(0.69);
     left: -15%;
     top:-9%;
 }
-.i-right :nth-child(2){
+.hero :nth-child(2){
     transform: scale(0.67);
     left: -3rem;
     top:-4.6rem;
 }
-.i-right :nth-child(3){
+.hero :nth-child(3){
     transform: scale(1.4);
     left: 28%;
     
